@@ -14,7 +14,8 @@ a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    background-color: #F60; }
+    background-color: #FA7;
+    border-radius: 10px}
 
 .btn {
   display: inline-block;
