@@ -11,10 +11,11 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: #444;
+  font-weight:400;
   text-decoration: none; }
   a:hover {
-    background-color: #FCA;
+    background-color: #FCB;
     border-radius: 10px}
 
 .btn {
