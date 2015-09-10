@@ -98,15 +98,12 @@ h6 {
       background-color:transparent; }
   
 .site-footer {
-  margin-left:auto;
-  margin-right:auto;
+  text-align: center;
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner, .site-footer-credits {
-  margin-left:auto;
-  margin-right:auto;
   display: block;
   color: #819198;
   font-weight: 300;
