@@ -126,7 +126,7 @@ h6 {
 }
 nav ul li {
     display: inline;
-    margin-right:auto;
+    margin-left:auto;
     font-weight: 300;
     text-transform:uppercase;
     font-variant: small-caps;
