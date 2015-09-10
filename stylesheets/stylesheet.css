@@ -100,14 +100,27 @@ h6 {
       background-color:transparent;}
   
 .site-footer {
-  text-align: center;
   padding-top: 3rem;
   margin-top: 3rem;
   border-top: solid 1px #eff0f1; }
 
-.site-footer-owner, .site-footer-credits {
+.site-footer-owner, .site-footer-credits, .site-footer-other {
   display: block;
   color: #819198;
   font-weight: 300;
   font-size: 85%;
+}
+
+.site-footer-owner {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.site-footer-credits {
+  text-align:left;
+}
+
+.site-footer-other {
+  text-align:right;
 }
