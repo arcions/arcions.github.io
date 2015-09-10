@@ -86,7 +86,7 @@ h6 {
   text-align: center;
   background-color: #FC2366;
   background-image: linear-gradient(130deg, #FF6D0C, #00C0F0); 
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
   font-size: 200%;
   font-weight: 300;
 }
@@ -100,5 +100,5 @@ h6 {
   display: block;
   color: #819198;
   font-weight: 300;
-  font-size: 87%;
+  font-size: 85%;
 }
