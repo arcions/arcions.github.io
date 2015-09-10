@@ -93,6 +93,9 @@ h6 {
   color: #FEE;
   font-weight:300;
   text-decoration: none; }
+    .page-header a:hover {
+      background-color: none;
+      border-radius: 10px}
   
 .site-footer {
   padding-top: 2rem;
