@@ -95,7 +95,8 @@ h6 {
   text-decoration: none; }
     .page-header a:hover {
       color: #444;
-      text-decoration:none;}
+      text-decoration:none;
+      background-color:transparent; }
   
 .site-footer {
   padding-top: 2rem;
