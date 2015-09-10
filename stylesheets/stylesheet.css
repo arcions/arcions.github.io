@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
   width: 90%;
-  float: center;}
+  float: center;
+  padding: 3rem 0 10rem 0;
+}
 
 body {
   padding: 0;
