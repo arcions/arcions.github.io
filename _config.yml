@@ -1,2 +1,9 @@
 name: ArcIons
 markdown: markdown
+defaults:
+  -
+    scope:
+      path: "_layouts"
+      type: "html"
+    values:
+      layout: "default"
