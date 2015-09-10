@@ -105,6 +105,8 @@ h6 {
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner, .site-footer-credits {
+  margin-left:auto;
+  margin-right:auto;
   display: block;
   color: #819198;
   font-weight: 300;
