@@ -117,8 +117,10 @@ h6 {
 
 .site-footer-credits {
   text-align:left;
+  float:left;
 }
 
 .site-footer-other {
   text-align:right;
+  float:right;
 }
