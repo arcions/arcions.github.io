@@ -177,6 +177,7 @@ h6 {
   margin-left:0;
   margin-right:auto;
   clear: both;
+  overflow: auto;
 }
 
 .page-header-right {
@@ -184,6 +185,7 @@ h6 {
   margin-right:0;
   margin-left:auto;
   clear: both;
+  overflow: auto;
 }
 
 /* Page header */
