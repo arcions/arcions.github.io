@@ -176,14 +176,14 @@ h6 {
   display: block;
   margin-left:0;
   margin-right:auto;
-  clear: right;
+  clear: both;
 }
 
 .page-header-right {
   display: block;
   margin-right:0;
   margin-left:auto;
-  clear: left;
+  clear: both;
 }
 
 /* Page header */
