@@ -172,6 +172,7 @@ h6 {
       background-color:transparent;}
 
 #header-left {
+  float:left;
   text-align:left;
   margin-left:0;
 }
