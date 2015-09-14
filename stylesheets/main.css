@@ -172,13 +172,13 @@ h6 {
       text-decoration:none;
       background-color:transparent;}
 
-.site-header-left {
+.page-header-left {
   display: block;
   text-align:left;
   float:left;
 }
 
-.site-header-right {
+.page-header-right {
   display: block;
   text-align:right;
   float:right;
