@@ -171,10 +171,14 @@ h6 {
       text-decoration:none;
       background-color:transparent;}
 
+#header{
+  padding:2rem;
+}
+
 #header-left {
   float:left;
   text-align:left;
-  margin-left:0;
+  margin-left:-10px;
 }
 
 #header-right {
