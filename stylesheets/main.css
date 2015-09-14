@@ -3,26 +3,92 @@
 }
 
 body {
-  width:73%;
+  width:72%;
   padding:0px 70px 70px;
   margin-left:auto;
   margin-right:auto;
-  font: 131%/1.32 'FiraBook', sans-serif;
+  font: 131%/1.33 'FiraBook', sans-serif;
   font-weight: 300;
-  color: #606c71; }
+  color: #6F6F6F;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
+}
+
+p {
+  font-family: 'FiraBook', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: inherit;
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
+}
+
+em {
+  font-family: 'FiraBookIt', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: inherit;
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
+}
+
+strong {
+  font-family: 'FiraMed', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: inherit;
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
+}
 
 a {
-  color: #444;
-  font-weight:400;
-  text-decoration: none; }
+  color: #1F3847;
+  text-decoration: none; 
+  font-feature-settings: inherit;
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
+}
   a:hover {
     background-color: #FEE;
-    border-radius: 10px}
+    border-radius: 10px;
+    height: 100%;
+  }
 
 h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
   font-family:'Nuvo', sans-serif;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 h1 { 
