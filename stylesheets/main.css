@@ -173,15 +173,13 @@ h6 {
       background-color:transparent;}
 
 .page-header-left {
-  display: block;
-  text-align:left;
+  display: inline-block;
   margin-left:0;
   margin-right:auto;
 }
 
 .page-header-right {
-  display: block;
-  text-align:right;
+  display: inline-block;
   margin-right:0;
   margin-left:auto;
 }
