@@ -161,11 +161,11 @@ h6 {
   font-size: 230%;
   font-weight: 300; }
 .page-header a {
-  color: #F60;
+  color: #FF4900;
   font-weight:300;
   text-decoration: none; }
     .page-header a:hover {
-      color: #444;
+      color: #1F3847;
       text-decoration:none;
       background-color:transparent;}
 
@@ -198,6 +198,16 @@ h6 {
   font-family:'Nuvo', sans-serif;
   font-size:83%;
 }
+  .site-footer a {
+    color: #FF4900;
+    font-weight:300;
+    text-decoration: none;
+  }
+    .site-footer a:hover {
+      color: #1F3847;
+      text-decoration:none;
+      background-color:transparent;
+    }
   
   @media screen and (min-width: 64em) {
     .site-footer {
