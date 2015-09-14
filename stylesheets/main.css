@@ -3,7 +3,7 @@
 }
 
 body {
-  width:72%;
+  width:70%;
   padding:0px 70px 70px;
   margin-left:auto;
   margin-right:auto;
@@ -87,15 +87,8 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
-  font-family:'Bauer', sans-serif;
+  font-family:'CooHewBk', sans-serif;
   font-weight: normal;
-  font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
-  text-transform: none;
-  -webkit-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
-  -moz-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
-  -moz-font-feature-settings: "kern=1, liga=1, ss02=1, ss03=1, titl=1, tnum=1, lnum=1";
-  -ms-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
-  -o-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
 }
 
 h1 { 
@@ -154,10 +147,17 @@ h6 {
     margin-right: 0;
 }
 
-.page-header {
-  color: #fff;
+.page-header, .project-tagline {
+  color: #f60;
   text-align: center;
   font-family:'Bauer', sans-serif;
+  font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  text-transform: none;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -moz-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -moz-font-feature-settings: "kern=1, liga=1, ss02=1, ss03=1, titl=1, tnum=1, lnum=1";
+  -ms-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -o-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
   font-size: 300%;
   font-weight: 300; }
 .page-header a {
