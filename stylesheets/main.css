@@ -175,13 +175,15 @@ h6 {
 .page-header-left {
   display: block;
   text-align:left;
-  float:left;
+  margin-left:0;
+  margin-right:auto;
 }
 
 .page-header-right {
   display: block;
   text-align:right;
-  float:right;
+  margin-right:0;
+  margin-left:auto;
 }
 
 /* Page header */
