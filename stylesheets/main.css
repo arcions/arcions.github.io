@@ -172,12 +172,14 @@ h6 {
       text-decoration:none;
       background-color:transparent;}
 
-.page-header-left {
+.site-header-left {
+  display: block;
   text-align:left;
   float:left;
 }
 
-.page-header-right {
+.site-header-right {
+  display: block;
   text-align:right;
   float:right;
 }
