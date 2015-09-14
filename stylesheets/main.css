@@ -187,12 +187,11 @@ h6 {
   text-align:right;
   float:right;
 }
+
 nav ul li {
     display: inline;
-    margin-left:-50px;
     margin-right:100px;
-    font-weight: 300;
-    text-transform:uppercase;
-    font-variant: small-caps;
-    font-size: 85%;
+    margin-left:-40px;
+    font-family:'Nuvo', sans-serif;
+    font-size: 90%;
 }
