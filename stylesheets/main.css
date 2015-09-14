@@ -87,8 +87,15 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
-  font-family:'Nuvo', sans-serif;
+  font-family:'Bauer', sans-serif;
   font-weight: normal;
+  font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  text-transform: none;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -moz-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -moz-font-feature-settings: "kern=1, liga=1, ss02=1, ss03=1, titl=1, tnum=1, lnum=1";
+  -ms-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -o-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
 }
 
 h1 { 
@@ -192,7 +199,7 @@ nav ul li {
     display: inline;
     margin-right:100px;
     margin-left:-40px;
-    font-family:'CooHewBk', sans-serif;
+    font-family:'Nuvo', sans-serif;
     font-size: 90%;
-    font-variant: small-caps;
+    text-transform:uppercase;
 }
