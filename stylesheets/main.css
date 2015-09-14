@@ -180,6 +180,9 @@ h6 {
     .page-header {
       padding: 0.5rem 0.25rem; } }
 
+.project-tagline {
+  padding: 1rem;
+}
 /* Project tagline */
   @media screen and (min-width: 64em) {
     .project-tagline {
