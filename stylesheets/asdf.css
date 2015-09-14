@@ -1,0 +1,39 @@
+@font-face {
+  font-family:'Bauer';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/BauerGroteskWebPro-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family:'Nuvo';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/NuvoWeb-Medi.woff') format('woff');
+}
+
+@font-face {
+  font-family:'FiraBook';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family:'FiraBookIt';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-BookItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family:'FiraMed';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family:'FiraMedIt';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family:'CooHewBk';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family:'CooHewTh';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Thin.woff') format('woff');
+}
