@@ -186,13 +186,13 @@ h6 {
 /* Project tagline */
   @media screen and (min-width: 64em) {
     .project-tagline {
-      font-size: 220%; } }
+      font-size: 215%; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .project-tagline {
-      font-size: 180% } }
+      font-size: 175% } }
   @media screen and (max-width: 42em) {
     .project-tagline {
-      font-size: 140% } }
+      font-size: 135% } }
 
 .site-footer {
   padding-top: 3rem;
