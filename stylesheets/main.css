@@ -175,8 +175,6 @@ h6 {
   display: block;
   text-align:left;
   margin-left:0;
-  clear: both;
-  overflow: auto;
 }
 
 .page-header-right {
@@ -184,7 +182,7 @@ h6 {
   text-align:right;
   margin-right:0;
   clear: both;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /* Page header */
