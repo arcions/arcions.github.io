@@ -183,18 +183,20 @@ h6 {
 /* Project tagline */
   @media screen and (min-width: 64em) {
     .project-tagline {
-      font-size: 5rem; } }
+      font-size: 230%; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .project-tagline {
-      font-size: 4rem; } }
+      font-size: 190% } }
   @media screen and (max-width: 42em) {
     .project-tagline {
-      font-size: 3rem; } }
+      font-size: 150% } }
 
 .site-footer {
   padding-top: 3rem;
   margin-top: 3rem;
-  border-top: solid 1px #eff0f1; }
+  border-top: solid 1px #eff0f1;
+  font-size:83%;
+}
   
   @media screen and (min-width: 64em) {
     .site-footer {
