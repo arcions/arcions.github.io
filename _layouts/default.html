@@ -1,43 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-<head>
-<link rel="profile" href="/">
-<link rel="icon" 
-      type="image/png" 
-      href="https://lh3.googleusercontent.com/-T-ThS-KKFiQ/VfDjrpDbU-I/AAAAAAAAAfA/mvIzCY1mREE/w248-h256-no/0a.png">
-      
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css" media="screen">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/asdf.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/github-light.css" media="screen">
-  </head>
+	
+{% include head.html %}
+
+{% include header.html %}
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name"><a href="/"><img src="https://lh3.googleusercontent.com/-fCK70660sl8/VfDhcvdZMGI/AAAAAAAAAew/_kdR5PIIZO0/w800-h230-no/arc.png" alt="ArcIons"></a></h1>
-    </section>
-  <nav>
-  	<ul>
-  		<li><a href="/">Home</a></li>
-	        <li><a href="/about">About</a></li>
-    	</ul>
-  </nav>
+  	
+	{% include nav.html %}
 
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-      
-      <footer class="site-footer">
-        <span class="site-footer-credits">&copy; 2015</span>
-        <span class="site-footer-other"><a href="#"><i class="fa fa-chevron-circle-up fa-lg"></i></a> <a href="/about" target="_blank" title="About"><i class="fa fa-info-circle fa-lg"></i></a> <a href="/" target="_blank" title="About"><i class="fa fa-envelope fa-lg"></i></a></span>
-        <span class="site-footer-owner"><a href="/"><img alt="ArcIons" src="https://lh3.googleusercontent.com/-T-ThS-KKFiQ/VfDjrpDbU-I/AAAAAAAAAfA/mvIzCY1mREE/w248-h256-no/0a.png" width="23"></a></span>
-      </footer>
-
+		{{ content }}
+		
+	{% include footer.html %}
   
   </body>
+  
 </html>
