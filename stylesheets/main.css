@@ -21,6 +21,17 @@ body {
   -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
 }
 
+/* body */
+  @media screen and (min-width: 64em) {
+    body {
+      font: 131%/1.33 'FiraBook', sans-serif; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    body {
+      font: 120%/1.2 'FiraBook', sans-serif; } }
+  @media screen and (max-width: 42em) {
+    body {
+      font: 100%/1.1 'FiraBook', sans-serif; } }
+
 p {
   font-family: 'FiraBook', sans-serif;
   font-weight: normal;
