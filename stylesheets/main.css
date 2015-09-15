@@ -205,13 +205,13 @@ h6 {
 /* Page header */
   @media screen and (min-width: 64em) {
     .page-header {
-      padding: 1.5rem 0.75rem; } }
+      padding: 1.7rem 0; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
-      padding: 1rem 0.5rem; } }
+      padding: 1rem 0; } }
   @media screen and (max-width: 42em) {
     .page-header {
-      padding: 0.5rem 0.25rem; } }
+      padding: 0.5rem 0; } }
 
 /* Project tagline */
   @media screen and (min-width: 64em) {
