@@ -19,6 +19,16 @@
 }
 
 @font-face {
+  font-family:'FiraExLig';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family:'FiraExLigIt';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face {
   font-family:'FiraMed';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-Medium.woff') format('woff');
 }
