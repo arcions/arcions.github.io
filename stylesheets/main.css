@@ -48,7 +48,13 @@ p {
 }
 
 p.lead {
-  font-size: 1.5rem;
+  font-family: 'FiraExLig', sans-serif;
+  font-size: 1.53rem;
+}
+
+p.lead em {
+  font-family: 'FiraExLigIt', sans-serif;
+  font-size: 1.53rem;
 }
 
 em {
