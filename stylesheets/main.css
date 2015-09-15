@@ -210,10 +210,10 @@ h6 {
       background-color:transparent;}
 
 #header{
-  margin-top:1rem;
-  margin-bottom:2rem;
-  padding-top:1rem;
-  padding-bottom:2rem;
+  margin-top:0.7rem;
+  margin-bottom:1.5rem;
+  padding-top:0.7rem;
+  padding-bottom:1.5rem;
   border-bottom: solid 1px #eff0f1;
 }
 
