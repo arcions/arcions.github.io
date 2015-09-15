@@ -170,7 +170,7 @@ h6 {
   -moz-font-feature-settings: "kern=1, liga=1, ss02=1, ss03=1, titl=1, tnum=1, lnum=1";
   -ms-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
   -o-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
-  font-size: 210%;
+  font-size: 200%;
   font-weight: 300;
 }
 .page-header a {
@@ -216,13 +216,13 @@ h6 {
 /* Project tagline */
   @media screen and (min-width: 64em) {
     .project-tagline {
-      font-size: 210%; } }
+      font-size: 200%; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .project-tagline {
-      font-size: 170% } }
+      font-size: 160% } }
   @media screen and (max-width: 42em) {
     .project-tagline {
-      font-size: 130% } }
+      font-size: 120% } }
 
 .site-footer {
   padding-top: 3rem;
