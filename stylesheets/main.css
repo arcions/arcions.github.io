@@ -47,6 +47,10 @@ p {
   -o-font-feature-settings: inherit;
 }
 
+p.lead {
+  font:140%/137; 'FiraBook', sans-serif;
+}
+
 em {
   font-family: 'FiraBookIt', sans-serif;
   font-weight: normal;
