@@ -50,11 +50,28 @@ p {
 p.lead {
   font-family: 'FiraExLig', sans-serif;
   font-size: 1.53rem;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
 }
 
 p.lead em {
   font-family: 'FiraExLigIt', sans-serif;
   font-size: 1.53rem;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+}
+
+p.lead strong {
+  font-family: 'FiraBook', sans-serif;
+  font-size: 1.53rem;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
 }
 
 em {
