@@ -48,7 +48,7 @@ p {
 }
 
 p.lead {
-  font:140%/137; 'FiraBook', sans-serif;
+  font-size: 140%/137;
 }
 
 em {
