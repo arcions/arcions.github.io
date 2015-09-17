@@ -7,7 +7,8 @@ body {
   padding:0px 20px 20px;
   margin-left:auto;
   margin-right:auto;
-  font: 131%/1.33 'FiraBook', sans-serif;
+  /* font: 131%/1.33 'FiraBook', sans-serif; */
+  font: 131%/1.33 'Charter', serif;
   font-weight: 300;
   color: #6F6F6F;
   word-wrap: break-word;
@@ -25,16 +26,20 @@ body {
 /* body */
   @media screen and (min-width: 64em) {
     body {
-      font: 131%/1.33 'FiraBook', sans-serif; } }
+      /* font: 131%/1.33 'FiraBook', sans-serif; } } */
+      font: 131%/1.33 'Charter', serif; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     body {
-      font: 120%/1.2 'FiraBook', sans-serif; } }
+      /* font: 120%/1.2 'FiraBook', sans-serif; } } */
+      font: 120%/1.2 'Charter', serif; } }
   @media screen and (max-width: 42em) {
     body {
-      font: 100%/1.1 'FiraBook', sans-serif; } }
+      /* font: 100%/1.1 'FiraBook', sans-serif; } } */
+      font: 100%/1.1 'Charter', serif; } }
 
 p {
-  font-family: 'FiraBook', sans-serif;
+  /* font-family: 'FiraBook', sans-serif; */
+  font-family: 'Charter', serif;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: inherit;
@@ -49,7 +54,8 @@ p {
 }
 
 p.lead {
-  font-family: 'FiraExLig', sans-serif;
+  /* font-family: 'FiraExLig', sans-serif; 
+  font-family: 'Charter', serif; */
   font-size: 1.53rem;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
@@ -58,7 +64,8 @@ p.lead {
 }
 
 p.lead em {
-  font-family: 'FiraExLigIt', sans-serif;
+  /* font-family: 'FiraExLigIt', sans-serif; */
+  font-family: 'CharterIt', serif;
   font-size: 1.53rem;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
@@ -67,7 +74,8 @@ p.lead em {
 }
 
 p.lead strong {
-  font-family: 'FiraBook', sans-serif;
+  /* font-family: 'FiraBook', sans-serif; */
+  font-family: 'CharterB', serif;
   font-size: 1.53rem;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
@@ -76,7 +84,8 @@ p.lead strong {
 }
 
 em {
-  font-family: 'FiraBookIt', sans-serif;
+  /* font-family: 'FiraBookIt', sans-serif; */
+  font-family: 'CharterIt', serif;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: inherit;
@@ -91,14 +100,15 @@ em {
 }
 
 strong {
-  font-family: 'FiraMed', sans-serif;
+  /* font-family: 'FiraMed', sans-serif; */
+  font-family: 'CharterB', serif;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
-  -webkit-font-feature-settings: inherit;
+  -webkit-font-feature-settings: inherit;fira
   -moz-font-feature-settings: inherit;
   -moz-font-feature-settings: inherit;
   -ms-font-feature-settings: inherit;
