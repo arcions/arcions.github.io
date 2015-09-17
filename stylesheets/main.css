@@ -10,6 +10,7 @@ body {
   font: 131%/1.33 'FiraBook', sans-serif;
   font-weight: 300;
   color: #6F6F6F;
+  word-wrap: break-word;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
