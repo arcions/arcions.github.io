@@ -107,7 +107,8 @@ strong {
 
 a {
   color: #1F3847;
-  text-decoration: none; 
+  text-decoration: none;
+  padding:2px;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -122,6 +123,7 @@ a {
     background-color: #FEE;
     border-radius: 10px;
     height: 100%;
+    padding:2px;
   }
 
 h1, h2, h3, h4, h5, h6 {
