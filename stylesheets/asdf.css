@@ -1,11 +1,13 @@
 @font-face {
   font-family:'Bauer';
-  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/BauerGroteskWebPro-Medium.woff') format('woff');
+  /* src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/BauerGroteskWebPro-Medium.woff') format('woff'); */
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/sads/SubBauGroMed.woff') format('woff');
 }
 
 @font-face {
   font-family:'Nuvo';
-  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/NuvoWeb-Medi.woff') format('woff');
+  /* src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/NuvoWeb-Medi.woff') format('woff'); */
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/sads/SubNuvWebMed.woff') format('woff');
 }
 
 @font-face {
@@ -46,4 +48,24 @@
 @font-face {
   font-family:'CooHewTh';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family:'Charter';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/sads/CharterReg.woff') format('woff');
+}
+
+@font-face {
+  font-family:'CharterIt';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/sads/CharterIt.woff') format('woff');
+}
+
+@font-face {
+  font-family:'CharterB';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/sads/CharterBold.woff') format('woff');
+}
+
+@font-face {
+  font-family:'CharterBIt';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/sads/CharterBoldIt.woff') format('woff');
 }
