@@ -10,7 +10,7 @@ body {
   /* font: 131%/1.33 'FiraBook', sans-serif; */
   font: 131%/1.33 'Charter', serif;
   font-weight: 300;
-  color: #6F6F6F;
+  color: #667;
   word-wrap: break-word;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
@@ -57,6 +57,7 @@ p.lead {
   /* font-family: 'FiraExLig', sans-serif; 
   font-family: 'Charter', serif; */
   font-size: 1.53rem;
+  color:#434355;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -67,6 +68,7 @@ p.lead em {
   /* font-family: 'FiraExLigIt', sans-serif; */
   font-family: 'CharterIt', serif;
   font-size: 1.53rem;
+  color:#434355;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -77,6 +79,7 @@ p.lead strong {
   /* font-family: 'FiraBook', sans-serif; */
   font-family: 'CharterB', serif;
   font-size: 1.53rem;
+  color:#434355;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -130,8 +133,8 @@ a {
   -o-font-feature-settings: inherit;
 }
   a:hover {
-    background-color: #FEE;
-    border-radius: 10px;
+    background-color: rgba(255,55,55,0.2);
+    border-radius: 9px;
     height: 100%;
     padding:2px;
   }
@@ -310,3 +313,34 @@ nav ul li {
     font-size: 90%;
     text-transform:uppercase;
 }
+
+nav a {
+    color: #1F3847;
+    text-decoration: none;
+    padding: 13px 15px;
+    font-weight: normal;
+    }
+      nav a:hover {
+        background-color: rgba(196,43,43,0.1);
+        padding: 13px 15px;
+        border-radius: 5px;
+      }
+  
+  @media screen and (min-width: 64em) {
+    nav a {
+    padding: 13px 15px;
+    }
+    nav a:hover {
+      padding: 13px 15px; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    nav a {
+    padding: 7px 9px;
+    }
+    nav a:hover {
+      padding: 7px 9px; } }
+  @media screen and (max-width: 42em) {
+    nav a {
+    padding: 5px 7px;
+    }
+    nav a:hover {
+      padding: 5px 7px; } }
