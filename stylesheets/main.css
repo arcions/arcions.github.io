@@ -39,7 +39,7 @@ body {
   @media screen and (max-width: 42em) {
     body {
       /* font: 100%/1.1 'FiraBook', sans-serif; } } */
-      font: 100%/1.2 'Charter', serif;
+      font: 100%/1.23 'Charter', serif;
       width:83%;
       padding:0px 5px 5px; } }
 
@@ -94,13 +94,13 @@ p.lead strong {
 
 /* p-lead */
   @media screen and (min-width: 64em) {
-    p.lead {
+    p.lead, p.lead em, p.lead strong {
       font-size: 1.53rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    p.lead {
+    p.lead, p.lead em, p.lead strong {
       font-size: 1.4rem; } }
   @media screen and (max-width: 42em) {
-    p.lead {
+    p.lead, p.lead em, p.lead strong {
       font-size: 1.2rem; } }
 
 em {
