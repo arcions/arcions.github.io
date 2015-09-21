@@ -140,7 +140,7 @@ a {
   text-decoration: none;
   padding: 1px 2px;
   border-radius: 9px;
-  background: linear-gradient(to right, rgba(255,53,0,.6) 49.99%, transparent 0%);
+  background: linear-gradient(to right, rgba(255,19,0,.6) 49.99%, transparent 0%);
   background-size: 200% 100%;
   background-position:right bottom;
   -webkit-transition: all 0.4s;
@@ -298,6 +298,14 @@ h6 {
   font-size:85%;
 }
 
+.site-footer a {
+  background: transparent;
+  }
+    .site-footer a:hover {
+      background: transparent;
+      color: #30B0B0;
+    }
+
   @media screen and (min-width: 64em) {
     .site-footer {
       font-size: 1.1rem; } }
@@ -342,6 +350,7 @@ nav a {
     text-decoration: none;
     padding: 13px 15px;
     font-weight: normal;
+    background: transparent;
     }
       nav a:hover {
         background-color: rgba(196,43,43,0.1);
