@@ -138,7 +138,15 @@ strong {
 a {
   color: #1F3847;
   text-decoration: none;
-  padding:2px;
+  padding: 1px 2px;
+  border-radius: 9px;
+  background: linear-gradient(to right, rgba(255,53,0,.6) 49.99%, transparent 0%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -150,10 +158,8 @@ a {
   -o-font-feature-settings: inherit;
 }
   a:hover {
-    background-color: rgba(255,55,55,0.2);
-    border-radius: 9px;
-    height: 100%;
-    padding:2px;
+    background-position:left bottom;
+    color: #fff;
   }
 
 h1, h2, h3, h4, h5, h6 {
