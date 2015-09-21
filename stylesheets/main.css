@@ -92,6 +92,20 @@ p.lead strong {
   font-variant-ligatures: common-ligatures;
 }
 
+/* p-lead */
+  @media screen and (min-width: 64em) {
+    p.lead {
+      /* font: 131%/1.33 'FiraBook', sans-serif; } } */
+      font-size: 1.53 rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    p.lead {
+      /* font: 120%/1.2 'FiraBook', sans-serif; } } */
+      font-size: 1.43 rem; } }
+  @media screen and (max-width: 42em) {
+    p.lead {
+      /* font: 100%/1.1 'FiraBook', sans-serif; } } */
+      font-size: 1.2 rem; } }
+
 em {
   /* font-family: 'FiraBookIt', sans-serif; */
   font-family: 'CharterIt', serif;
