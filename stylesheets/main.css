@@ -353,7 +353,7 @@ nav a {
     background: transparent;
     }
       nav a:hover {
-        background-color: rgba(196,43,43,0.1);
+        background-color: #00B4F1;
         padding: 13px 15px;
         border-radius: 5px;
       }
