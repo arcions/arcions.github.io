@@ -270,7 +270,7 @@ h6 {
      background:transparent;
    }
      #header-left a:hover {
-       color: #FF3C36;
+       color: #FF7A00;
        background:transparent;
      }
 
@@ -288,8 +288,8 @@ h6 {
 @media screen and (max-width: 42em) {
     #header-left a {
      font: 1.7em 'CharterB', serif;
-     margin-top:-0.2rem;
-     padding-top:-0.2rem; } }
+     margin-top: 0.2rem;
+     padding-top: 0.2rem; } }
 
 #header-right {
   text-align:right;
@@ -361,7 +361,7 @@ h6 {
      background:transparent;
    }
      .site-footer-owner a:hover {
-       color: #FF3C36;
+       color: #FF7A00;
        background:transparent;
      }
 
