@@ -286,8 +286,8 @@ h6 {
 @media screen and (max-width: 42em) {
     #header-left {
      font: 1.7em 'CharterB', serif;
-     margin-top: 17px;
-     padding-top: 17px; } }
+     margin-top: 11px;
+     padding-top: 11px; } }
 
 #header-right {
   text-align:right;
@@ -322,16 +322,6 @@ h6 {
   margin-top: 3rem;
   border-top: solid 1px #eff0f1;
 }
-
-  @media screen and (min-width: 64em) {
-    .site-footer {
-      font-size: 1.1rem; } }
-  @media screen and (min-width: 42em) and (max-width: 64em) {
-    .site-footer {
-      font-size: 1rem; } }
-  @media screen and (max-width: 42em) {
-    .site-footer {
-      font-size: 0.9rem; } }
 
 .site-footer-credits, .site-footer-other {
   display: block;
@@ -377,6 +367,25 @@ h6 {
         background: transparent;
         color: #00B4F1;
       }
+
+  @media screen and (min-width: 64em) {
+    .site-footer {
+      font-size: 1.1rem; }
+    .site-footer-owner {
+      margin-top:-41px;
+      padding-top:-41px; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .site-footer {
+      font-size: 1rem; } 
+    .site-footer-owner {
+      margin-top:-31px;
+      padding-top:-31px; } }
+  @media screen and (max-width: 42em) {
+    .site-footer {
+      font-size: 0.9rem; }
+    .site-footer-owner {
+      margin-top:-23px;
+      padding-top:-23px; } }
 
 nav ul li {
     display: inline;
