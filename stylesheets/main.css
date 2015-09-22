@@ -268,7 +268,7 @@ h6 {
      background:transparent;
    }
      #header-left a:hover {
-       color: #B00B0B;
+       color: #FF000B;
        background:transparent;
      }
 
@@ -404,7 +404,7 @@ nav a {
     background: transparent;
     }
       nav a:hover {
-        color: #00B4F1;
+        color: #FF000B;
         background: transparent;
         padding: 13px 15px;
         border-radius: 5px;
