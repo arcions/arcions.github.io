@@ -344,6 +344,7 @@ h6 {
 }
 
 .site-footer-owner {
+  display: block;
   text-align: center;
   font-family: 'Charter', serif;
 }
