@@ -347,6 +347,8 @@ h6 {
   display: block;
   text-align: center;
   font-family: 'Charter', serif;
+  margin-top:-7px;
+  padding-top:-7px;
 }
     .site-footer-owner a {
      color: #FF4900;
