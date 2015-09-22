@@ -249,9 +249,6 @@ h6 {
       background-color:transparent;}
 
 #header{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   margin-top:0.75rem;
   margin-bottom:0.75rem;
   padding-top:0.75rem;
@@ -279,18 +276,18 @@ h6 {
 @media screen and (min-width: 64em) {
    #header-left a {
      font: 3.1em 'Charter', serif;
-     /* margin-top:-0.5rem;
-     padding-top:-0.5rem; */ } }
+     margin-top:-0.5rem;
+     padding-top:-0.5rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) {
     #header-left a {
      font: 2.4em 'CharterB', serif;
-     /* margin-top:-0.5rem;
-     padding-top:-0.5rem; */ } }
+     margin-top:-0.5rem;
+     padding-top:-0.5rem; } }
 @media screen and (max-width: 42em) {
     #header-left a {
      font: 1.7em 'CharterB', serif;
-     /* margin-top: 10px;
-     padding-top: 10px; */ } }
+     margin-top: 10px;
+     padding-top: 10px; } }
 
 #header-right {
   text-align:right;
