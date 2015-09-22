@@ -343,12 +343,6 @@ h6 {
     .site-footer {
       font-size: 0.9rem; } }
 
-.site-footer-credits, .site-footer-other, .site-footer-owner {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .site-footer-credits, .site-footer-other {
   display: block;
   color: #819198;
@@ -359,6 +353,9 @@ h6 {
 
 .site-footer-owner {
   display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
   font-family: 'Charter', serif;
 }
