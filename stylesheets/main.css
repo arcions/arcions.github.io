@@ -320,6 +320,9 @@ h6 {
       font-size: 125% } }
 
 .site-footer {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   padding-top: 3rem;
   margin-top: 3rem;
   border-top: solid 1px #eff0f1;
