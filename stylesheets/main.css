@@ -323,8 +323,8 @@ h6 {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  padding-top: 3rem;
-  margin-top: 3rem;
+  /* padding-top: 3rem;
+  margin-top: 3rem; */
   border-top: solid 1px #eff0f1;
 }
 
@@ -358,8 +358,8 @@ h6 {
   display: block;
   text-align: center;
   font-family: 'Charter', serif;
-  padding-top: -15px;
-  margin-top: -15px;
+  /* padding-top: -15px;
+  margin-top: -15px; */
 }
     .site-footer-owner a {
      color: #FF4900;
