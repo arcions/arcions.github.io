@@ -286,8 +286,8 @@ h6 {
 @media screen and (max-width: 42em) {
     #header-left {
      font: 1.7em 'CharterB', serif;
-     margin-top: auto;
-     padding-top: auto; } }
+     margin: auto;
+     padding: auto; } }
 
 #header-right {
   text-align:right;
