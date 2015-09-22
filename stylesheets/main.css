@@ -341,14 +341,17 @@ h6 {
   font-weight: 300;
   font-family:'Nuvo', sans-serif;
   font-size:85%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .site-footer-owner {
   display: block;
   text-align: center;
   font-family: 'Charter', serif;
-  margin-top:-13px;
-  padding-top:-13px;
+  margin-top:-17px;
+  padding-top:-17px;
 }
     .site-footer-owner a {
      color: #FF4900;
