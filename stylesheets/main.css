@@ -259,8 +259,9 @@ h6 {
 #header-left {
   float:left;
   text-align:left;
-  margin-top:-0.5rem;
-  padding-top:-0.5rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   /*margin-left:-13px;*/
 }
 
@@ -278,23 +279,26 @@ h6 {
 @media screen and (min-width: 64em) {
    #header-left a {
      font: 3.1em 'Charter', serif;
-     margin-top:-0.5rem;
-     padding-top:-0.5rem; } }
+     /* margin-top:-0.5rem;
+     padding-top:-0.5rem; */ } }
 @media screen and (min-width: 42em) and (max-width: 64em) {
     #header-left a {
      font: 2.4em 'CharterB', serif;
-     margin-top:-0.5rem;
-     padding-top:-0.5rem; } }
+     /* margin-top:-0.5rem;
+     padding-top:-0.5rem; */ } }
 @media screen and (max-width: 42em) {
     #header-left a {
      font: 1.7em 'CharterB', serif;
-     margin-top: 10px;
-     padding-top: 10px; } }
+     /* margin-top: 10px;
+     padding-top: 10px; */ } }
 
 #header-right {
   text-align:right;
   margin-right:0;
   overflow: hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Page header */
@@ -361,8 +365,8 @@ h6 {
   display: block;
   text-align: center;
   font-family: 'Charter', serif;
-  /* padding-top: -15px;
-  margin-top: -15px; */
+  padding-top: -7px;
+  margin-top: -7px;
 }
     .site-footer-owner a {
      color: #FF4900;
