@@ -259,8 +259,8 @@ h6 {
 #header-left {
   float:left;
   text-align:left;
-  margin-top:0.5rem;
-  padding-top:0.5rem;
+  margin-top:-0.5rem;
+  padding-top:-0.5rem;
   /*margin-left:-13px;*/
 }
 
