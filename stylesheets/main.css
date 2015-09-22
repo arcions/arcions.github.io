@@ -347,7 +347,7 @@ h6 {
      background:transparent;
    }
       .site-footer-owner a:hover {
-        color: #B00B0B;
+        color: #FF000B;
         background:transparent;
       }
 
@@ -404,7 +404,7 @@ nav a {
     background: transparent;
     }
       nav a:hover {
-        color: #FF000B;
+        color: #00B4F1;
         background: transparent;
         padding: 13px 15px;
         border-radius: 5px;
