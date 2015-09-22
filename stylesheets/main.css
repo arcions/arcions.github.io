@@ -286,8 +286,8 @@ h6 {
 @media screen and (max-width: 42em) {
     #header-left {
      font: 1.7em 'CharterB', serif;
-     margin-top: 11px;
-     padding-top: 11px; } }
+     margin-top: auto;
+     padding-top: auto; } }
 
 #header-right {
   text-align:right;
@@ -384,8 +384,8 @@ h6 {
     .site-footer {
       font-size: 0.9rem; }
     .site-footer-owner {
-      margin-top:-23px;
-      padding-top:-23px; } }
+      margin-top:-27px;
+      padding-top:-27px; } }
 
 nav ul li {
     display: inline;
