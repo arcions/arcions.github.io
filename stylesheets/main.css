@@ -288,8 +288,8 @@ h6 {
 @media screen and (max-width: 42em) {
     #header-left a {
      font: 1.7em 'CharterB', serif;
-     margin-top: 1rem;
-     padding-top: 1rem; } }
+     margin-top: 10px;
+     padding-top: 10px; } }
 
 #header-right {
   text-align:right;
@@ -355,8 +355,8 @@ h6 {
   display: block;
   text-align: center;
   font-family: 'Charter', serif;
-  padding-top: -0.7rem;
-  margin-top: -0.7rem;
+  padding-top: -15px;
+  margin-top: -15px;
 }
     .site-footer-owner a {
      color: #FF4900;
