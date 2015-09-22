@@ -320,11 +320,8 @@ h6 {
       font-size: 125% } }
 
 .site-footer {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  /* padding-top: 3rem;
-  margin-top: 3rem; */
+  padding-top: 3rem;
+  margin-top: 3rem;
   border-top: solid 1px #eff0f1;
 }
 
@@ -345,6 +342,12 @@ h6 {
   @media screen and (max-width: 42em) {
     .site-footer {
       font-size: 0.9rem; } }
+
+.site-footer-credits, .site-footer-other, .site-footer-owner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .site-footer-credits, .site-footer-other {
   display: block;
