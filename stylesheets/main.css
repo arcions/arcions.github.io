@@ -277,13 +277,19 @@ h6 {
 /* header */
 @media screen and (min-width: 64em) {
    #header-left a {
-     font: 3.1em 'Charter', serif; } }
+     font: 3.1em 'Charter', serif;
+     margin-top:-0.5rem;
+     padding-top:-0.5rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) {
     #header-left a {
-     font: 2.4em 'CharterB', serif; } }
+     font: 2.4em 'CharterB', serif;
+     margin-top:-0.5rem;
+     padding-top:-0.5rem; } }
 @media screen and (max-width: 42em) {
     #header-left a {
-     font: 1.7em 'CharterB', serif; } }
+     font: 1.7em 'CharterB', serif;
+     margin-top:-0.2rem;
+     padding-top:-0.2rem; } }
 
 #header-right {
   text-align:right;
