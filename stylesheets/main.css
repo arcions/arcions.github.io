@@ -140,7 +140,7 @@ a {
   text-decoration: none;
   padding: 1px 2px;
   border-radius: 9px;
-  background: linear-gradient(to right, rgba(255,37,0,.6) 49.99%, transparent 0%);
+  background: linear-gradient(to right, rgba(199,11,0,.6) 49.99%, transparent 0%);
   background-size: 200% 100%;
   background-position:right bottom;
   -webkit-transition: all 0.4s;
