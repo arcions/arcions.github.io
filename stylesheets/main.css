@@ -411,16 +411,25 @@ nav a {
       }
   
   @media screen and (min-width: 64em) {
+    nav ul li {
+      margin-left:50px;
+      margin-right:0px; }
     nav a {
       padding: 13px 15px; }
     nav a:hover {
       padding: 13px 15px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
+    nav ul li {
+      margin-left: 50px;
+      margin-right:0px; }
     nav a {
       padding: 11px 13px; }
     nav a:hover {
       padding: 11px 13px; } }
   @media screen and (max-width: 42em) {
+    nav ul li {
+      margin-left: auto;
+      margin-right:0px; }
     nav a {
       padding: 7px 9px; }
     nav a:hover {
