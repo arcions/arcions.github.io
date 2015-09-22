@@ -325,14 +325,6 @@ h6 {
   border-top: solid 1px #eff0f1;
 }
 
-.site-footer-other a {
-  background: transparent;
-  }
-    .site-footer-other a:hover {
-      background: transparent;
-      color: #00B4F1;
-    }
-
   @media screen and (min-width: 64em) {
     .site-footer {
       font-size: 1.1rem; } }
@@ -352,10 +344,7 @@ h6 {
 }
 
 .site-footer-owner {
-  display: block;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  vertical-align: middle;
   text-align: center;
   font-family: 'Charter', serif;
 }
@@ -364,10 +353,10 @@ h6 {
      font: 3.1em 'Charter', serif;
      background:transparent;
    }
-     .site-footer-owner a:hover {
-       color: #FF1500;
-       background:transparent;
-     }
+      .site-footer-owner a:hover {
+        color: #FF1500;
+        background:transparent;
+      }
 
 .site-footer-credits {
   text-align:left;
@@ -378,6 +367,13 @@ h6 {
   text-align:right;
   float:right;
 }
+    .site-footer-other a {
+     background: transparent;
+   }
+      .site-footer-other a:hover {
+        background: transparent;
+        color: #00B4F1;
+      }
 
 nav ul li {
     display: inline;
