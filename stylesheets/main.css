@@ -264,18 +264,18 @@ h6 {
 
    #header-left a {
      color: #FF4900;
-     font: 2.7em 'Charter', serif;
+     font: 2.9em 'Charter', serif;
      background:transparent;
    }
      #header-left a:hover {
-       color: #FF2531;
+       color: #FF6025;
        background:transparent;
      }
 
 /* header */
 @media screen and (min-width: 64em) {
    #header-left a {
-     font: 2.7em 'Charter', serif; } }
+     font: 2.9em 'Charter', serif; } }
 @media screen and (min-width: 42em) and (max-width: 64em) {
     #header-left a {
      font: 2.3em 'CharterB', serif; } }
