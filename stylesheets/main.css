@@ -266,6 +266,8 @@ h6 {
      color: #FF4900;
      font: 3.1em 'Charter', serif;
      background:transparent;
+     margin-top:-0.5rem;
+     padding-top:-0.5rem;
    }
      #header-left a:hover {
        color: #FF1500;
