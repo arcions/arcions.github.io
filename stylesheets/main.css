@@ -259,6 +259,8 @@ h6 {
 #header-left {
   float:left;
   text-align:left;
+  margin-top:-0.5rem;
+  padding-top:-0.5rem;
   /*margin-left:-13px;*/
 }
 
@@ -266,8 +268,6 @@ h6 {
      color: #FF4900;
      font: 3.1em 'Charter', serif;
      background:transparent;
-     margin-top:-0.5rem;
-     padding-top:-0.5rem;
    }
      #header-left a:hover {
        color: #FF1500;
@@ -361,8 +361,6 @@ h6 {
   display: block;
   text-align: center;
   font-family: 'Charter', serif;
-  padding-top: -7px;
-  margin-top: -7px;
 }
     .site-footer-owner a {
      color: #FF4900;
