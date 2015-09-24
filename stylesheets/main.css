@@ -140,12 +140,11 @@ a {
   text-decoration: none;
   padding: 1px 2px;
   border-radius: 9px;
-  background: linear-gradient(to right, rgba(255,37,0,.61) 49.99%, transparent 0%);
-  background-size: 200% 100%;
+  background: linear-gradient(to right, rgba(48,176,176,.7) 50%, transparent 0%);
+  background-size: 201% 100%;
   background-position:right bottom;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
