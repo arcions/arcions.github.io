@@ -267,7 +267,8 @@ h6 {
      background:transparent;
    }
      #header-left a:hover {
-       color: #FF000B;
+       /* color: #FF000B; */
+       color: #00676B;
        background:transparent;
      }
 
@@ -346,7 +347,8 @@ h6 {
      background:transparent;
    }
       .site-footer-owner a:hover {
-        color: #FF000B;
+        /* color: #FF000B; */
+        color: #00676B;
         background:transparent;
       }
 
