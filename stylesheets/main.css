@@ -348,7 +348,7 @@ h6 {
    }
       .site-footer-owner a:hover {
         /* color: #FF000B; */
-        color: linear-gradient(#FF000B,#00676B,#B2FF0D);
+        color: #00676B;
         background:transparent;
       }
 
