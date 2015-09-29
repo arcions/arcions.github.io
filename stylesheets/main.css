@@ -14,6 +14,8 @@ body {
   word-wrap: break-word;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
@@ -50,6 +52,8 @@ p {
   font-style: normal;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: inherit;
@@ -66,6 +70,8 @@ p.lead {
   color:#434355;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
 }
@@ -77,6 +83,8 @@ p.lead em {
   color:#434355;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
 }
@@ -88,6 +96,8 @@ p.lead strong {
   color:#434355;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
 }
@@ -110,6 +120,8 @@ em {
   font-style: normal;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: inherit;
@@ -126,6 +138,8 @@ strong {
   font-style: normal;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: inherit;fira
@@ -148,6 +162,8 @@ a {
   cursor: pointer;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: inherit;
@@ -164,6 +180,9 @@ a {
 h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
   font-family:'Nuvo', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   font-weight: normal;
 }
 
@@ -228,6 +247,9 @@ h6 {
   text-align: center;
   font-family:'Bauer', sans-serif;
   margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
   text-transform: none;
   -webkit-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
@@ -261,6 +283,9 @@ h6 {
   margin-top:-0.5rem;
   padding-top:-0.5rem;
   font: 3.1em 'Charter', serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
    #header-left a {
      color: #FF4900;
@@ -328,6 +353,9 @@ h6 {
   color: #819198;
   font-weight: 300;
   font-family:'Nuvo', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   font-size:85%;
   position: relative;
   top: 50%;
@@ -338,6 +366,9 @@ h6 {
   display: block;
   text-align: center;
   font-family: 'Charter', serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   margin-top:-41px;
   padding-top:-41px;
 }
