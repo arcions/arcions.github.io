@@ -438,6 +438,7 @@ nav a {
       nav a:hover {
         color: #00B4F1;
         background: transparent;
+        border: 3px solid #00B4F1;
         padding: 13px 15px;
         border-radius: 5px;
       }
