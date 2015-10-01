@@ -154,7 +154,7 @@ a {
   text-decoration: none;
   padding: 1px 2px;
   border-radius: 9px;
-  background: linear-gradient(to right, rgba(0,186,186,0.7) 50%, transparent 0%);
+  background: linear-gradient(to right, rgba(0,200,200,0.7) 50%, transparent 0%);
   background-size: 201% 100%;
   background-position:right bottom;
   -webkit-transition: all 0.3s;
@@ -167,7 +167,6 @@ a {
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: inherit;
-  -moz-font-feature-settings: inherit;
   -moz-font-feature-settings: inherit;
   -ms-font-feature-settings: inherit;
   -o-font-feature-settings: inherit;
@@ -438,7 +437,7 @@ nav a {
       nav a:hover {
         color: #00B4F1;
         background: transparent;
-        border: 2px solid #00B4F1;
+        border: 1px solid #00B4F1;
         padding: 13px 15px;
         border-radius: 5px;
       }
