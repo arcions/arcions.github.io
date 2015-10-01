@@ -168,7 +168,6 @@ a {
   font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: inherit;
   -moz-font-feature-settings: inherit;
-  -ms-font-feature-settings: inherit;
   -o-font-feature-settings: inherit;
 }
   a:hover {
@@ -253,8 +252,6 @@ h6 {
   text-transform: none;
   -webkit-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
   -moz-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
-  -moz-font-feature-settings: "kern=1, liga=1, ss02=1, ss03=1, titl=1, tnum=1, lnum=1";
-  -ms-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
   -o-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
   font-size: 185%;
   font-weight: 300;
@@ -293,7 +290,11 @@ h6 {
      #header-left a:hover {
        /* color: #FF000B; */
        color: #00676B;
-       background:transparent;
+       background: transparent;
+       -webkit-transition: all 500ms ease-out 1s;
+       -moz-transition: all 500ms ease-out 1s;
+       -o-transition: all 500ms ease-out 1s;
+       transition: all 500ms ease-out 1s;
      }
 
 /* header */
@@ -380,6 +381,10 @@ h6 {
         /* color: #FF000B; */
         color: #00676B;
         background:transparent;
+        -webkit-transition: all 500ms ease-out 1s;
+        -moz-transition: all 500ms ease-out 1s;
+        -o-transition: all 500ms ease-out 1s;
+       transition: all 500ms ease-out 1s;
       }
 
 .site-footer-credits {
