@@ -425,7 +425,7 @@ h6 {
 
 nav ul li {
     display: inline;
-    margin-left:30px;
+    margin-left:20px;
     margin-right:0px;
     font-family:'Nuvo', sans-serif;
     font-size: 90%;
@@ -436,7 +436,7 @@ nav a {
     color: #1F3847;
     text-decoration: none;
     padding: 13px 15px;
-    border: 2px solid #fff;
+    border: 2px solid rgba(255,255,255,0.1);
     font-weight: normal;
     background: transparent;
     }
@@ -450,16 +450,16 @@ nav a {
   
   @media screen and (min-width: 64em) {
     nav ul li {
-      margin-left:30px;
-      margin-right:0px; }
+      margin-left: 20px;
+      margin-right: 0px; }
     nav a {
       padding: 13px 15px; }
     nav a:hover {
       padding: 13px 15px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     nav ul li {
-      margin-left: 30px;
-      margin-right:0px; }
+      margin-left: 20px;
+      margin-right: 0px; }
     nav a {
       padding: 11px 13px; }
     nav a:hover {
@@ -467,7 +467,7 @@ nav a {
   @media screen and (max-width: 42em) {
     nav ul li {
       margin-left: auto;
-      margin-right:0px; }
+      margin-right: 0px; }
     nav a {
       padding: 7px 9px; }
     nav a:hover {
