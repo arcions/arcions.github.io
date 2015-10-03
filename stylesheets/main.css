@@ -436,13 +436,14 @@ nav a {
     color: #1F3847;
     text-decoration: none;
     padding: 13px 15px;
+    border: transparent;
     font-weight: normal;
     background: transparent;
     }
       nav a:hover {
         color: #00B4F1;
         background: transparent;
-        border: 1px solid #00B4F1;
+        border: 1.5px solid #00B4F1;
         padding: 13px 15px;
         border-radius: 5px;
       }
