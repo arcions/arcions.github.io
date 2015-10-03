@@ -436,7 +436,7 @@ nav a {
     color: #1F3847;
     text-decoration: none;
     padding: 13px 15px;
-    border: transparent;
+    border: 1.5px solid #fff;
     font-weight: normal;
     background: transparent;
     }
