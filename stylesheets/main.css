@@ -503,11 +503,11 @@ nav a {
         -moz-border-radius: 100px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
      .circular {
-      width: 170px;
-      height: 170px;
-      border-radius: 85px;
-       -webkit-border-radius: 85px;
-        -moz-border-radius: 85px; } }
+      width: 160px;
+      height: 160px;
+      border-radius: 80px;
+       -webkit-border-radius: 80px;
+        -moz-border-radius: 80px; } }
   @media screen and (max-width: 42em) {
      .circular {
       width: 90px;
