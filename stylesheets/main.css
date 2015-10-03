@@ -480,5 +480,6 @@ nav a {
   border-radius: 150px;
    -webkit-border-radius: 150px;
    -moz-border-radius: 150px;
-  background: url(https://lh3.googleusercontent.com/-5Wo8lV5xY2M/Ve0qVFxDBCI/AAAAAAAABk8/rM9Z32Pa8T8/s0-d-ip/IMG5832c.png) contain;
+  background-image: url('https://lh3.googleusercontent.com/-5Wo8lV5xY2M/Ve0qVFxDBCI/AAAAAAAABk8/rM9Z32Pa8T8/s0-d-ip/IMG5832c.png');
+  background-size: contain;
 }
