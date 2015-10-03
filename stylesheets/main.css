@@ -486,6 +486,14 @@ nav a {
   background-position: center;
 }
 
+.box {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+}
+
 @media screen and (min-width: 64em) {
     .circular {
       width: 230px;
