@@ -441,9 +441,9 @@ nav a {
     background: transparent;
     }
       nav a:hover {
-        color: #fff;
-        background: #00B4F1;
-        /* border: 2px solid #00B4F1; */
+        color: #FF4900;
+        background: transparent;
+        border: 2px solid #00B4F1;
         padding: 13px 15px;
         border-radius: 5px;
       }
