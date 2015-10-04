@@ -408,18 +408,21 @@ h6 {
     .site-footer {
       font-size: 1.1rem; }
     .site-footer-owner {
+      font-size: 3.1em;
       margin-top:-41px;
       padding-top:-41px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .site-footer {
       font-size: 1.1rem; } 
     .site-footer-owner {
+      font-size: 2.5em;
       margin-top:-31px;
       padding-top:-31px; } }
   @media screen and (max-width: 42em) {
     .site-footer {
       font-size: 1.1rem; }
     .site-footer-owner {
+      font-size: 2em;
       margin-top:-27px;
       padding-top:-27px; } }
 
