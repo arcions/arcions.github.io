@@ -441,9 +441,9 @@ nav a {
     background: transparent;
     }
       nav a:hover {
-        color: #00B4F1;
-        background: transparent;
-        border: 2px solid #00B4F1;
+        color: #fff;
+        background: #00B4F1;
+        /* border: 2px solid #00B4F1; */
         padding: 13px 15px;
         border-radius: 5px;
       }
@@ -524,6 +524,7 @@ nav a {
     background: #fff;
     text-align: center;
     line-height: 25px;
+    margin-left: 3px;
     position: relative;
 }
 
