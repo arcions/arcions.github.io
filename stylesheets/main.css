@@ -461,7 +461,8 @@ nav a {
       margin-left: 20px;
       margin-right: 0px; }
     nav a {
-      padding: 11px 13px; }
+      padding: 11px 13px;
+      font-weight: bold; }
     nav a:hover {
       padding: 11px 13px; } }
   @media screen and (max-width: 42em) {
@@ -469,7 +470,8 @@ nav a {
       margin-left: auto;
       margin-right: 0px; }
     nav a {
-      padding: 7px 9px; }
+      padding: 7px 9px;
+      font-weight: bold; }
     nav a:hover {
       padding: 7px 9px; } }
 
@@ -544,7 +546,7 @@ nav a {
 .cirq:hover {
         background: #00B4F1;
         color: #fff;
-      }
+}
 
 .cirq:hover:after {
     top: -4px;
