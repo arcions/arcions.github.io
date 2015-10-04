@@ -462,7 +462,7 @@ nav a {
       margin-right: 0px; }
     nav a {
       padding: 11px 13px;
-      font-weight: bold; }
+      font-weight: 400; }
     nav a:hover {
       padding: 11px 13px; } }
   @media screen and (max-width: 42em) {
@@ -471,7 +471,7 @@ nav a {
       margin-right: 0px; }
     nav a {
       padding: 7px 9px;
-      font-weight: bold; }
+      font-weight: 400; }
     nav a:hover {
       padding: 7px 9px; } }
 
