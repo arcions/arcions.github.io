@@ -398,11 +398,11 @@ h6 {
 }
     .site-footer-other a {
      background: transparent;
+     color: #1F3847;
    }
-      .site-footer-other a:hover {
-        background: transparent;
-        color: #00B4F1;
-      }
+     .site-footer-other a:hover {
+       color: #fff;
+    }
 
   @media screen and (min-width: 64em) {
     .site-footer {
@@ -518,15 +518,15 @@ nav a {
 
 .cirq {
     display: inline-block;
-    color: #1F3847;
-    width: 23px;
-    height: 23px;
-    border-radius: 100%;
+    width:23px;
+    height:23px;
+    border-radius:100%;
     background: #fff;
-    text-align: center;
-    line-height: 24px;
-    position: relative;
+    text-align:center;
+    line-height:24px;
+    position:relative;
 }
+
 .cirq:after {
     border-radius: 200%;
     border: 2.3px solid #ff4900;
@@ -539,13 +539,15 @@ nav a {
     right:1px;
     transition:all ease 0.23s;
 }
+
 .cirq:hover {
-    color: #FFF;
-    background: #00b4f1;
-}
+        background: #00B4F1;
+        color: #fff;
+      }
+
 .cirq:hover:after {
-    top:-4px;
-    bottom:-4px;
-    right:-4px;
-    left:-4px;
+    top:-3px;
+    bottom:-3px;
+    right:-3px;
+    left:-3px;
 }
