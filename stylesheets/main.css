@@ -530,6 +530,7 @@ nav a {
     line-height: 25px;
     margin-left: 3px;
     position: relative;
+    padding: 13px;
 }
 
 .cirq:after {
@@ -543,11 +544,13 @@ nav a {
     bottom: 1px;
     right: 1px;
     transition: all ease 0.23s;
+    padding: 13px;
 }
 
 .cirq:hover {
-        background: #00B4F1;
-        color: #fff;
+    background: #00B4F1;
+    color: #fff;
+    padding: 13px;
 }
 
 .cirq:hover:after {
@@ -555,4 +558,5 @@ nav a {
     bottom: -4px;
     right: -4px;
     left: -4px;
+    padding: 13px;
 }
