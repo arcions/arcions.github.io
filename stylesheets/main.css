@@ -444,7 +444,7 @@ nav a {
         color: #00B4F1;
         background: transparent;
         border: 2px solid #FF4900;
-        padding: 13px 15px;
+        padding: 17px;
         border-radius: 5px;
       }
   
@@ -453,27 +453,27 @@ nav a {
       margin-left: 20px;
       margin-right: 0px; }
     nav a {
-      padding: 13px 15px; }
+      padding: 17px; }
     nav a:hover {
-      padding: 13px 15px; } }
+      padding: 17px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     nav ul li {
       margin-left: 20px;
       margin-right: 0px; }
     nav a {
-      padding: 11px 13px;
+      padding: 15px;
       font-weight: 400; }
     nav a:hover {
-      padding: 11px 13px; } }
+      padding: 15px; } }
   @media screen and (max-width: 42em) {
     nav ul li {
       margin-left: auto;
       margin-right: 0px; }
     nav a {
-      padding: 7px 9px;
+      padding: 13px;
       font-weight: 400; }
     nav a:hover {
-      padding: 7px 9px; } }
+      padding: 13px; } }
 
 .circular {
   display: inline-block;
