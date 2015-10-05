@@ -399,9 +399,11 @@ h6 {
     .site-footer-other a {
      background: transparent;
      color: #1F3847;
+     padding: 13px;
    }
      .site-footer-other a:hover {
        color: #fff;
+       padding: 13px;
     }
 
   @media screen and (min-width: 64em) {
@@ -444,7 +446,7 @@ nav a {
         color: #00B4F1;
         background: transparent;
         border: 2px solid #FF4900;
-        padding: 17px;
+        padding: 13px 15px;
         border-radius: 5px;
       }
   
@@ -453,27 +455,27 @@ nav a {
       margin-left: 20px;
       margin-right: 0px; }
     nav a {
-      padding: 17px; }
+      padding: 13px 15px; }
     nav a:hover {
-      padding: 17px; } }
+      padding: 13px 15px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     nav ul li {
       margin-left: 20px;
       margin-right: 0px; }
     nav a {
-      padding: 15px;
+      padding: 11px 13px;
       font-weight: 400; }
     nav a:hover {
-      padding: 15px; } }
+      padding: 11px 13px; } }
   @media screen and (max-width: 42em) {
     nav ul li {
       margin-left: auto;
       margin-right: 0px; }
     nav a {
-      padding: 13px;
+      padding: 7px 9px;
       font-weight: 400; }
     nav a:hover {
-      padding: 13px; } }
+      padding: 7px 9px; } }
 
 .circular {
   display: inline-block;
