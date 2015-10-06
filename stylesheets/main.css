@@ -399,9 +399,11 @@ h6 {
     .site-footer-other a {
      background: transparent;
      color: #1F3847;
+     padding: auto;
    }
      .site-footer-other a:hover {
        color: #fff;
+       padding: auto;
     }
 
   @media screen and (min-width: 64em) {
