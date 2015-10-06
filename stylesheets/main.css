@@ -526,11 +526,11 @@ nav a {
     height: 23px;
     border-radius: 100%;
     background: #fff;
-    text-align: center;
+    text-align: right;
     line-height: 25px;
-    margin-left: 9px;
+    /* margin-left: 9px;
     margin-right: -3px;
-    padding-left: 2px;
+    padding-left: 2px; */
     position: relative;
 }
 
