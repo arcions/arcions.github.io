@@ -528,7 +528,8 @@ nav a {
     background: #fff;
     text-align: center;
     line-height: 25px;
-    margin-left: -3px;
+    margin-left: -2px;
+    padding: 2px;
     position: relative;
 }
 
