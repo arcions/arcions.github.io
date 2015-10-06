@@ -540,10 +540,10 @@ nav a {
     position: absolute;
     content: "";
     z-index: -1;
-    top: 1px;
-    left: 1px;
-    bottom: 1px;
-    right: 1px;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
     transition: all ease 0.23s;
 }
 
